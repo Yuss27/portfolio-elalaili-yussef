@@ -1,0 +1,27 @@
+@import "~aos/dist/aos.css";
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 128, 128, 0.5); 
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px; 
+}
+
+.carousel-item img {
+    width: 100%; 
+    height: 400px; 
+    object-fit: cover; 
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+pre, code, .code-block {
+    font-family: 'Courier New', Courier, monospace;
+}
